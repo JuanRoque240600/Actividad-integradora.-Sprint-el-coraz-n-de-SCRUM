@@ -1,0 +1,73 @@
+body {
+  background: -webkit-linear-gradient(90deg, #d67286 10%, #8cc8ac 90%);
+  background:    -moz-linear-gradient(90deg, #d67286 10%, #8cc8ac 90%);
+  background:     -ms-linear-gradient(90deg, #d67286 10%, #8cc8ac 90%);
+  background:      -o-linear-gradient(90deg, #d67286 10%, #8cc8ac 90%);
+  background:         linear-gradient(90deg, #d67286 10%, #8cc8ac 90%);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: inline-block;
+  width: 700px;
+  margin-top: 120px;
+}
+
+.title {
+  text-align: center;
+  color: rgb(12, 11, 11);
+}
+
+.new-task {
+  display: block;
+  width: 100%;
+  background-color: azure;
+  border-radius: 20px;
+  height: 40px;
+  border-color: rgb(29, 12, 12);
+  border-width: 5px;
+  text-align: centein;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.test-label {
+  text-align: center;
+  color: white;
+}
+
+.task-container {
+  width: 100%;
+  background-color: azure;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-left: 8px solid rgb(240, 11, 11) !important;
+}
+
+.task { 
+  margin: 0;
+  padding: 10px 0px 10px 10px;
+  
+}
+
+.delete-button {
+  background-color: black;
+  border-radius: 13px;
+  height: 23px;
+  color: white;
+  border-width: 0px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.button-container {
+  position: relative;
+  float: right;
+  margin: -35px 20px;
+}
+
+
+ 
+
