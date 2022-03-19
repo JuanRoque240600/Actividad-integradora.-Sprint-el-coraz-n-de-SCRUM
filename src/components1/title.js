@@ -3,7 +3,7 @@ import React from "react";
 function Title() {
   return (
     <h1 className="title">
-      SCRUM SPRINT{" "}
+      NUMERO DE EMPLEADO{" "}
       
     </h1>
   );
